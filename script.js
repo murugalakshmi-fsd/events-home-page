@@ -1,0 +1,10 @@
+var div=document.createElement("div");
+var div1=document.createElement("div");
+var div2=document.createElement("div");
+div.setAttribute("class","container");
+div1.setAttribute("class","row");
+div2.setAttribute("class","col");
+div2.innerHTML="Hello";
+div1.append(div2);
+div.append(div1);
+document.body.append(div);
